@@ -1,0 +1,8 @@
+site_name: "TestOpenApi"
+site_description: "TestOpenApi"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

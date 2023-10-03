@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestOpenApi
+  description: "TestOpenApi"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "TestOpenApi"
+    github.com/project-slug: veecode-bot/TestOpenApi
+    vault.io/secrets-path: "TestOpenApi"
+    grafana/tag-selector: "TestOpenApi"
+    grafana/alert-label-selector: "alertname=TestOpenApi"
+    argocd/proxy-url: '/argocd/api'
+    argocd/app-name: "TestOpenApi"
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: "group:default/admin"
+
+
+
